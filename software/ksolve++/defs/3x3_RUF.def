@@ -1,0 +1,43 @@
+Name 3x3_RUF
+
+# corners UFL ULB UBR URF DLF DFR DRB
+# edges UF UL UB UR FL FR BR DF DR
+
+Set corners 7 3
+Set edges 9 2
+
+Solved
+corners
+1 2 3 4 5 6 7
+edges
+1 2 3 4 5 6 7 8 9
+End
+
+Move U
+corners
+4 1 2 3 5 6 7
+edges
+4 1 2 3 5 6 7 8 9
+End
+
+Move R
+corners
+1 2 4 6 5 7 3
+0 0 1 2 0 1 2
+edges
+1 2 3 6 5 9 4 8 7
+End
+
+Move F
+corners
+5 2 3 1 6 4 7
+2 0 0 1 1 2 0
+edges
+5 2 3 4 8 1 7 6 9
+1 0 0 0 1 1 0 1 0
+End
+
+PruningTables
+edges_p edges_o 100000000
+corners_p corners_o
+End

@@ -1,0 +1,57 @@
+Name 3x3
+
+Set corners 8 3
+Set edges 12 2
+
+# corners: UFL ULB UBR URF DBL DLF DFR DRB
+# edges: UF UL UB UR BL FL FR BR DB DL DF DR
+
+Solved
+corners
+1 2 3 4 5 6 7 8
+edges
+1 2 3 4 5 6 7 8 9 10 11 12
+End
+
+Move U
+corners
+4 1 2 3 5 6 7 8
+edges
+4 1 2 3 5 6 7 8 9 10 11 12
+End
+
+Move x
+corners
+6 1 4 7 2 5 8 3
+1 2 1 2 1 2 1 2
+edges
+11 6 1 7 2 10 12 4 3 5 9 8
+1 0 1 0 0 0 0 0 1 0 1 0
+End
+
+Move y
+corners
+4 1 2 3 6 7 8 5
+edges
+4 1 2 3 6 7 8 5 10 11 12 9
+0 0 0 0 1 1 1 1 0 0 0 0
+End
+
+MoveCombinations
+L = y' x U x' y
+F = x U x'
+R = y x U x' y'
+B = x' U x
+D = x2 U x2
+End
+
+UndefineMoves
+x
+y
+End
+
+PruningTables
+edges_p 500000000
+corners_p corners_o 100000000
+edges_o
+End

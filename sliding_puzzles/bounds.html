@@ -1,0 +1,381 @@
+<font face="Courier New">
+God's number (STM)
+
+<table border=1 style="border-collapse:collapse" cellpadding=5>
+	<tr align="center">
+		<th></th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		<th>10</th>
+	</tr>
+	<tr align="center">
+		<th>2</th>
+		<td>6</td>
+		<td>21</td>
+		<td>36</td>
+		<td>55</td>
+		<td>80</td>
+		<td>108</td>
+		<td>140</td>
+		<td>[126,192]</td>
+		<td><=237</td>
+	</tr>
+	<tr align="center">
+		<th>3</th>
+		<td>21</td>
+		<td>31</td>
+		<td>53</td>
+		<td>84</td>
+		<td>[99,125]</td>
+		<td>[122,177]</td>
+		<td>[123,232]</td>
+		<td>[150,300]</td>
+		<td><=371</td>
+	</tr>
+	<tr align="center">
+		<th>4</th>
+		<td>36</td>
+		<td>53</td>
+		<td>80</td>
+		<td>[107,138]</td>
+		<td>[132,208]</td>
+		<td>[149,265]</td>
+		<td>[188,360]</td>
+		<td>[227,462]</td>
+		<td><=580</td>
+	</tr>
+	<tr align="center">
+		<th>5</th>
+		<td>55</td>
+		<td>84</td>
+		<td>[107,138]</td>
+		<td>[152,205]</td>
+		<td>[177,294]</td>
+		<td><=397</td>
+		<td><=514</td>
+		<td><=645</td>
+		<td><=828</td>
+	</tr>
+	<tr align="center">
+		<th>6</th>
+		<td>80</td>
+		<td>[99,125]</td>
+		<td>[132,208]</td>
+		<td>[177,294]</td>
+		<td>[230,405]</td>
+		<td><=531</td>
+		<td><=704</td>
+		<td><=898</td>
+		<td><=1112</td>
+	</tr>
+	<tr align="center">
+		<th>7</th>
+		<td>108</td>
+		<td>[122,177]</td>
+		<td>[149,265]</td>
+		<td><=397</td>
+		<td><=531</td>
+		<td>[352,716]</td>
+		<td><=922</td>
+		<td><=1149</td>
+		<td><=1398</td>
+	</tr>
+	<tr align="center">
+		<th>8</th>
+		<td>140</td>
+		<td>[123,232]</td>
+		<td>[188,360]</td>
+		<td><=514</td>
+		<td><=704</td>
+		<td><=922</td>
+		<td><=1164</td>
+		<td><=1430</td>
+		<td><=1720</td>
+	</tr>
+	<tr align="center">
+		<th>9</th>
+		<td>[126,192]</td>
+		<td>[150,300]</td>
+		<td>[227,462]</td>
+		<td><=645</td>
+		<td><=898</td>
+		<td><=1149</td>
+		<td><=1430</td>
+		<td><=1780</td>
+		<td><=2159</td>
+	</tr>
+	<tr align="center">
+		<th>10</th>
+		<td><=237</td>
+		<td><=371</td>
+		<td><=580</td>
+		<td><=828</td>
+		<td><=1112</td>
+		<td><=1398</td>
+		<td><=1720</td>
+		<td><=2159</td>
+		<td><=2587</td>
+	</tr>
+</table>
+<br>
+upper bound reductions:
+
+<table border=1 style="border-collapse:collapse" cellpadding=5>
+	<tr align="center">
+		<th></th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		<th>10</th>
+	</tr>
+	<tr align="center">
+		<th>2</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5x2</td>
+		<td>6x2</td>
+	</tr>
+	<tr align="center">
+		<th>3</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3x3</td>
+		<td>5x3</td>
+		<td>6x3</td>
+		<td>7x3</td>
+		<td>8x3</td>
+	</tr>
+	<tr align="center">
+		<th>4</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>4x4</td>
+		<td>5x4</td>
+		<td>4x4</td>
+		<td>4x4</td>
+		<td>5x4</td>
+		<td>9x4</td>
+	</tr>
+	<tr align="center">
+		<th>5</th>
+		<td></td>
+		<td></td>
+		<td>4x4</td>
+		<td>3x3</td>
+		<td>5x5</td>
+		<td>6x5</td>
+		<td>7x5</td>
+		<td>8x5</td>
+		<td>9x5</td>
+	</tr>
+	<tr align="center">
+		<th>6</th>
+		<td></td>
+		<td>3x3</td>
+		<td>5x4</td>
+		<td>5x5</td>
+		<td>6x5</td>
+		<td>6x6</td>
+		<td>7x6</td>
+		<td>8x6</td>
+		<td>9x6</td>
+	</tr>
+	<tr align="center">
+		<th>7</th>
+		<td></td>
+		<td>5x3</td>
+		<td>4x4</td>
+		<td>6x5</td>
+		<td>6x6</td>
+		<td>7x6</td>
+		<td>8x6</td>
+		<td>8x7</td>
+		<td>9x7</td>
+	</tr>
+	<tr align="center">
+		<th>8</th>
+		<td></td>
+		<td>6x3</td>
+		<td>4x4</td>
+		<td>7x5</td>
+		<td>7x6</td>
+		<td>8x6</td>
+		<td>8x7</td>
+		<td>8x8</td>
+		<td>9x8</td>
+	</tr>
+	<tr align="center">
+		<th>9</th>
+		<td>5x2</td>
+		<td>7x3</td>
+		<td>5x4</td>
+		<td>8x5</td>
+		<td>8x6</td>
+		<td>8x7</td>
+		<td>8x8</td>
+		<td>9x8</td>
+		<td>9x9</td>
+	</tr>
+	<tr align="center">
+		<th>10</th>
+		<td>6x2</td>
+		<td>8x3</td>
+		<td>9x4</td>
+		<td>9x5</td>
+		<td>9x6</td>
+		<td>9x7</td>
+		<td>9x8</td>
+		<td>9x9</td>
+		<td>10x9</td>
+	</tr>
+</table>
+
+<pre>
+
+
+regions
+10x10 -> 10x9 - 162+125+141 = 428 STM (1234, 567, 8910)
+10x10 -> 10x9 - 105+101+125+141 = 472 STM (12, 34, 567, 8910)
+10x9 -> 9x9 - 129+119+131 = 379 STM (123, 456, 789)
+10x8 -> 9x8 - 145+145 = 290 STM (1234, 5678)
+10x8 -> 9x8 - 94+115+121 = 330 STM (12, 345, 678)
+10x7 -> 9x7 - 113+136 = 249 STM (123, 4567)
+10x6 -> 9x6 - 107+107 = 214 STM (123, 456)
+10x5 -> 9x5 - 145 STM
+10x5 -> 8x5 - 102+101+111 = 314 STM (123, 4 5 10, 6789)
+10x4 -> 9x4 - 118 STM
+10x3 -> 8x3 - 139 STM
+10x2 -> 6x2 - 157 STM
+
+9x9 -> 9x8 - 119+109+122 = 350 STM (123, 456, 789)
+9x8 -> 8x8 - 133+133 = 266 STM (1234, 5678)
+9x7 -> 8x7 - 103+124 = 227 STM (123, 4567)
+9x6 -> 8x6 - 97+97 = 194 STM (123, 456)
+9x4 -> 5x4 - 122+104+98 = 324 STM (12345, 678910, rest)
+9x3 -> 7x3 - 123 STM
+
+8x8 -> 8x7 - 121+121 = 242 STM (1234, 5678)
+8x7 -> 7x7 - 112+94 or 113+93 = 206 STM (123, 4567 or 1234, 567)
+8x7 -> 8x6 - 109+109 = 218 STM (1234, 5678)
+8x6 -> 7x6 - 69+105 = 174 STM (12, 3456)
+8x6 -> 7x6 - 87+87 = 174 STM (123, 456)
+8x6 -> 7x6 - 105+68 = 173 STM (1234, 56)
+8x6 -> 6x6 - 105+102+93 = 300 STM (1234, 5 6 11 12, 78910)?
+8x4 -> 6x4 - 108+67 = 175 STM (12345, 678)
+8x4 -> 4x4 - 108+90+82 = 280 STM (12345, 678910, rest)
+8x3 -> 6x3 - 107 STM
+
+7x7 -> 7x6 - 84+101 = 185 STM (123, 4567)
+7x6 -> 6x6 - 77+77 = 154 STM (123 456)
+7x6 -> 6x6 - 126 STM
+7x4 -> 4x4 - 103+82 = 185 STM (1-6, 7-12)
+7x4 -> 3x4 - 94+76+66 = 236 STM (12345, 678910, rest)
+
+6x6 -> 6x5 - 111 STM
+6x5 -> 6x4 - 95 STM
+6x3 -> 4x3 - 77 STM
+6x3 -> 3x3 - 95 STM
+
+5x5 -> 3x3 - 91+84 = 175 STM (1 2 3 4 5 6 7, 8 9 10 11 12 16 17 21 22)
+note that the two 3x3 antipodes have blank in bottom middle and right middle, so 3x3 with blank in the fringe can be solved in 30 moves
+
+
+
+
+
+
+conjectures
+Nx2 -> (N-2)x2 - 12N-15, N>3
+Nx2 -> (N-3)x2 - 16N-28, N>3
+Nx2 -> (N-4)x2 - 20N-43, N>5 (verified up to N=10)
+Nx2 -> (N-k)x2 - 4(k+1)N-c for some c depending on k
+
+Nx3 -> (N-1)x3 - 10N-8, N>2 (verified up to N=11)
+Nx4 -> (N-1)x4 - 12N-2, N>2 (verified up to N=11)
+Nx5 -> (N-1)x5 - 14N+5 (verified up to N=10)
+
+gods number for Nx2 is at least 2N^2 for N>2
+
+
+
+
+optimal stuff:
+
+4  3  2 1
+8  7  6 9
+0 11 10 5
+L3DR2UL2DR3UL2DR2UL2DRDL2U2RDRDRULDLUR2DL2ULDR2UL2U (53*)
+
+this is a 4x3 antipode (depth 53) that reduces to depth 51 when embedded into a 4x4 puzzle
+
+1  2  3  4 
+8  7  6  5 
+12 11 10 13
+0  15 14 9 
+D3L2U3LDR2UL2DR3UL3DR3UL3DR2DL2UR2DLDR2UL2U2L (51*)
+
+
+
+6x3:
+3  2  1
+6  5  4
+9  8  7
+12 11 10
+15 14 13
+0  17 16
+LLDRRULDRDLLUURDDDLDDRUURDLLURRUULLDDRURDDLLDRRULLDRULUURRULLU (62*)
+
+16 17 0
+13 14 15
+10 11 12
+7  8  9
+4  5  6
+1  2  3
+requires at least 99
+
+7x3:
+0  20 19
+18 17 16
+15 14 13
+12 11 10
+9  8  7
+6  5  4
+3  2  1
+requires at least 122
+U6L2D5R2U4L2D3R2U4L2D6R2U6L2D6R2U6L2D6R2U5L2D4R2U3L1U1L1D5R2U6L2D6R2U6L2D4R2U4L2 (134)
+
+9x2:
+17 0
+15 16
+13 14
+11 12
+9  10
+7  8
+5  6
+3  4
+1  2
+requires at least 126
+
+
+</pre>
+
+</font>

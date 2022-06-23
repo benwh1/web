@@ -1,0 +1,46 @@
+My largest factorizations:<br><br>
+
+<font face="Courier New">
+
+<table border="1" id="table">
+    <tr>
+        <td>Rank</td>
+        <td>Number</td>
+        <td>Digits</td>
+        <td>Factors</td>
+        <td>Comments</td>
+        <td>Date</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10^200+51</td>
+        <td>201</td>
+        <td>1818726759829681245855770562340397633575329834559385623253139678907308398051 * <br>
+            54983520454367056600768085237041819680200030910259939138153931931209273482766412457128851000687458110065685246936098370502001</td>
+        <td>SNFS on 8 cores, 70 hours for sieving, 3 hours for linear algebra and square root</td>
+        <td>2016/12/13</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>1213121412131215121312141213121612131214121312151213121412131217121312141213121512131214121312161213121412131215121312141213121</td>
+        <td>127</td>
+        <td>4753271244611033539100746959955535510811123195957706798127 * <br>
+            255218217034548056377347938588687642935222211881725033832630096740623</td>
+        <td>84 cores on 21 computers, 2 hours of ECM at B1=11M and 2 hours at B1=43M</td>
+        <td>2016/10/19</td>
+    </tr>
+</table>
+
+</font>
+
+<script>
+
+var table = document.getElementById("table");
+
+window.onload = function(){
+    for(var i=1; i<table.rows.length; i++){
+        table.rows[i].children[0]['textContent'] = i;
+    }
+}
+
+</script>

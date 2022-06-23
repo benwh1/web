@@ -1,0 +1,27 @@
+v1.0 (2020-05-28):
+Released
+
+v1.1 (2020-07-05):
+Allow saving at any time, not just during a solve
+Cube size is shown above the solve time
+
+v1.2 (2020-07-16):
+Border padding setting
+Fixed a bug where the timer could be wrong by 0.001 after finishing a solve
+Fixed a bug where the scroll bars weren't resized when loading a save file which was saved with a different projection than the current projection
+
+v1.3 (2021-02-14):
+Text antialiasing option
+Re-encode video option for replay recorder
+Fix a 1px white border around the window
+Guide lines don't become thicker when zooming in
+Make scrambles a bit shorter (and hence a bit faster)
+Immediately resize the window when the replay recorder video size option is changed
+
+v1.4 (2021-02-24):
+Much faster and smaller save format
+Add mistakes percentage to reconstruction window
+Remove pieces/move from reconstruction window (who cares about that?)
+Add clicks/second to reconstruction window
+Don't try and load save files from any future version (would probably cause a crash otherwise)
+Allow opening the settings window during solves (except the puzzle tab)

@@ -1,0 +1,24 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+Let $\displaystyle{s(n)=\sum_{\tan(x)=x,x>0}\frac{1}{x^n}}$. Then 
+\begin{align*}
+\sum_{n=1}^{\infty}s(2n)x^{2n}
+&=\frac{1}{2}\left(\frac{x^2\tan(x)}{x-\tan(x)}+3\right) \\
+&=\frac{x^2}{10}+\frac{x^4}{350}+\frac{x^6}{7875}+\frac{37 x^8}{6063750}+\frac{59 x^{10}}{197071875}+\cdots
+\end{align*}
+
+Similarly, let $\displaystyle{s(n)=\sum_{\csc(x)=x,x>0}\frac{1}{x^n}}$. Then
+\begin{align*}
+\sum_{n=1}^{\infty}s(2n)x^{2n}
+&=\frac{x}{2}\left(\frac{1+x\cot(x)}{\csc(x)-x}\right) \\
+&=x^2+\frac{2x^4}{3}+\frac{21x^6}{40}+\frac{59x^8}{140}+\frac{24625x^{10}}{72576}+\cdots
+\end{align*}

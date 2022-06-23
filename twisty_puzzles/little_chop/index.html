@@ -1,0 +1,23 @@
+<pre>The following algs assume a fixed colour scheme (i.e. a position obtained by swapping faces of the solved state is considered not solved, even though every face has only one colour). The DB piece is also fixed in place
+
+<hr>
+
+Swap U/F faces (6)
+UF UB UL UR UL UB
+
+Rotate U face clockwise and preserve permutation of F face (11)
+UL UB UL UR UL FL FR FL UB UL UR
+
+Swap UL/FL, preserve permutation of other U/F faces (15) (this is the shortest 2-cycle of a U piece with an F piece, ignoring permutation of the other 4 faces)
+UF FL UR UF UR FR UF UB UF FR UR UF UR FL UF
+
+<hr>
+
+Easy-to-remember 3 cycle, UB -> UF -> DR (not necessarily optimal, 34) (found as [shortest &lt;UF,UL,UB,UR&gt; alg that affects one piece in the FR half, FR])
+[(UF UR UF UB)4, FR]
+
+Other not-necessarily-optimal 3 cycles found with similar method:
+[UF UR FL UF FR UL UF UL FR FL UR UF, FR] (UR -> FD -> LF) (24)
+[UB UL UR FL UF UB FR FL UR UB FR, UF] (LU -> BR -> RF) (22)
+
+</pre>

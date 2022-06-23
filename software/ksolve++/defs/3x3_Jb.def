@@ -1,0 +1,91 @@
+Name 3x3_Jb
+
+Set corners 8 3
+Set edges 12 2
+
+# corners: UFL ULB UBR URF DBL DLF DFR DRB
+# edges: UF UL UB UR BL FL FR BR DB DL DF DR
+
+Solved
+corners
+1 2 3 4 5 6 7 8
+edges
+1 2 3 4 5 6 7 8 9 10 11 12
+End
+
+Move U
+corners
+4 1 2 3 5 6 7 8
+edges
+4 1 2 3 5 6 7 8 9 10 11 12
+End
+
+Move x
+corners
+6 1 4 7 2 5 8 3
+1 2 1 2 1 2 1 2
+edges
+11 6 1 7 2 10 12 4 3 5 9 8
+1 0 1 0 0 0 0 0 1 0 1 0
+End
+
+Move y
+corners
+4 1 2 3 6 7 8 5
+edges
+4 1 2 3 6 7 8 5 10 11 12 9
+0 0 0 0 1 1 1 1 0 0 0 0
+End
+
+MoveCombinations
+z = x y x'
+L = y' x U x' y
+F = x U x'
+R = y x U x' y'
+B = y2 x U x' y2
+D = x2 U x2
+jperm = R U R' F' R U R' U' R' F R2 U' R' U'
+j_uf = y' jperm y
+j_ul = y2 jperm y2
+j_ub = y jperm y'
+j_ur = jperm
+j_ld = z y2 jperm y2 z'
+j_lb = z y jperm y' z'
+j_lu = z jperm z'
+j_lf = z y' jperm y z'
+j_fd = x y' jperm y x'
+j_fl = x y2 jperm y2 x'
+j_fu = x y jperm y' x'
+j_fr = x jperm x'
+j_rd = z' jperm z
+j_rf = z' y' jperm y z
+j_ru = z' y2 jperm y2 z
+j_rb = z' y jperm y' z
+j_bd = x' y jperm  y' x
+j_br = x' jperm x
+j_bu = x' y' jperm y x
+j_bl = x' y2 jperm y2 x
+j_db = z2 y jperm y' z2
+j_dl = z2 jperm z2
+j_df = z2 y' jperm y z2
+j_dr = x2 jperm x2
+End
+
+UndefineMoves
+x
+y
+z
+U
+L
+F
+R
+B
+D
+jperm
+End
+
+PruningTables
+edges_p 500000000
+corners_p corners_o 100000000
+edges_o
+End

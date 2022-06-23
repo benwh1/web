@@ -1,0 +1,46 @@
+Name 2x2x3
+
+Set corners 8 1
+Set edges 3 1
+
+# corners: UFL ULB UBR URF DBL DLF DFR DRB
+# edges: FL FR BR
+
+Solved
+corners
+1 2 3 4 5 6 7 8
+edges
+1 2 3
+End
+
+Move U
+corners
+4 1 2 3 5 6 7 8
+edges
+1 2 3
+End
+
+Move D
+corners
+1 2 3 4 8 5 6 7
+edges
+1 2 3
+End
+
+Move R2
+corners
+1 2 7 8 5 6 3 4
+edges
+1 3 2
+End
+
+Move F2
+corners
+7 2 3 6 5 4 1 8
+edges
+2 1 3
+End
+
+PruningTables
+corners edges
+End

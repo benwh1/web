@@ -1,0 +1,43 @@
+Name 4x4_rU
+
+Set corners 6 3
+Set centres 10 1
+Set wings 16 1
+
+# corners UFL ULB UBR URF DFR DRB
+# wings UFr UFl ULf ULb UBl UBr URb URf RFu RFd RDf RDb RBd RBu DFr DBr
+# centres Ufl Ulb Ubr Urf Fur Fdr Dfr Dbr Bdr Bur
+
+Solved
+corners
+1 2 3 4 5 6
+centres
+1 1 1 1 2 2 3 3 4 4
+wings
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+End
+
+Move r
+corners
+1 2 4 5 6 3
+0 0 1 2 1 2
+centres
+1 2 5 6 7 8 9 10 3 4
+wings
+15 2 3 4 5 1 9 10 11 12 13 14 7 8 16 6
+End
+
+Move U
+corners
+4 1 2 3 5 6
+centres
+4 1 2 3 5 6 7 8 9 10
+wings
+7 8 1 2 3 4 5 6 9 10 11 12 13 14 15 16
+End
+
+PruningTables
+wings 2000000+
+corners_o corners_p
+centres
+End

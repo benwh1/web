@@ -1,0 +1,76 @@
+My largest primes:<br><br>
+
+<font face="Courier New">
+
+<table border="1" id="table">
+    <tr>
+        <td>Rank</td>
+        <td>Number</td>
+        <td>Digits</td>
+        <td>Status</td>
+        <td>Comments</td>
+        <td>Date</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>48367*6^77777+1</td>
+        <td>60527</td>
+        <td>Prime (N-1)</td>
+        <td>Smallest prime of the form k*6^77777+1</td>
+        <td>2018/12/08</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>201227*6^46375+1</td>
+        <td>36093</td>
+        <td>Prime (N-1)</td>
+        <td>Smallest of the form k*6^46375+1 for k>200000</td>
+        <td>2018/12/09</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10^10003+63091</td>
+        <td>10004</td>
+        <td>PRP</td>
+        <td>Second smallest prime > 10^10003</td>
+        <td>2018/12/09</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10^10003+48967</td>
+        <td>10004</td>
+        <td>PRP</td>
+        <td>Smallest prime > 10^10003</td>
+        <td>2018/12/09</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10^10000+65227</td>
+        <td>10001</td>
+        <td>PRP</td>
+        <td>Second smallest prime > 10^10000</td>
+        <td>2018/12/09</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10^10000+28579</td>
+        <td>10001</td>
+        <td>PRP</td>
+        <td>Smallest prime > 10^10000</td>
+        <td>2018/12/09</td>
+    </tr>
+</table>
+
+</font>
+
+<script>
+
+var table = document.getElementById("table");
+
+window.onload = function(){
+    for(var i=1; i<table.rows.length; i++){
+        table.rows[i].children[0]['textContent'] = i;
+    }
+}
+
+</script>
