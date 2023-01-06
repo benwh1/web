@@ -1,0 +1,108 @@
+Name mastermorphix
+
+Set corners 8 3
+Set edges 12 2
+Set centers 6 4
+
+# hold with big corner in UFL
+# edges: UL is 1, DL is 2, FR is 3, BR is 4
+# edge is flipped iff it is odd number of qtm from original position
+# edges: UF UL UB UR BL FL FR BR DB DL DF DR
+# corners: UFL ULB UBR URF DBL DLF DFR DRB
+
+Solved
+corners
+1 2 3 4 5 6 7 8
+edges
+3 1 1 3 1 2 3 4 4 2 2 4
+centers
+1 2 3 4 5 6
+End
+
+Move U
+corners
+4 1 2 3 5 6 7 8
+edges
+4 1 2 3 5 6 7 8 9 10 11 12
+1 1 1 1 0 0 0 0 0 0 0 0
+centers
+1 2 3 4 5 6
+1 0 0 0 0 0
+End
+
+Move F
+corners
+6 2 3 1 5 7 4 8
+2 0 0 1 0 1 2 0
+edges
+6 2 3 4 5 11 1 8 9 10 7 12
+1 0 0 0 0 1 1 0 0 0 1 0
+centers
+1 2 3 4 5 6
+0 0 1 0 0 0
+End
+
+Move R
+corners
+1 2 4 7 5 6 8 3
+0 0 1 2 0 0 1 2
+edges
+1 2 3 7 5 6 12 4 9 10 11 8
+0 0 0 1 0 0 1 1 0 0 0 1
+centers
+1 2 3 4 5 6
+0 0 0 1 0 0
+End
+
+Move D
+corners
+1 2 3 4 8 5 6 7
+edges
+1 2 3 4 5 6 7 8 12 9 10 11
+0 0 0 0 0 0 0 0 1 1 1 1
+centers
+1 2 3 4 5 6
+0 0 0 0 0 1
+End
+
+Move B
+corners
+1 3 8 4 2 6 7 5
+0 1 2 0 2 0 0 1
+edges
+1 2 8 4 3 6 7 9 5 10 11 12
+0 0 1 0 1 0 0 1 1 0 0 0
+centers
+1 2 3 4 5 6
+0 0 0 0 1 0
+End
+
+Move L
+corners
+2 5 3 4 6 1 7 8
+1 2 0 0 1 2 0 0
+edges
+1 5 3 4 10 2 7 8 9 6 11 12
+0 1 0 0 1 1 0 0 0 1 0 0
+centers
+1 2 3 4 5 6
+0 1 0 0 0 0
+End
+
+Ignore
+corners
+0 0 0 0 0 0 0 0
+0 1 0 1 0 1 0 1
+edges
+0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0
+centers
+0 0 0 0 0 0
+0 0 0 0 0 0
+End
+
+PruningTables
+edges_p edges_o 800000000
+corners_p corners_o
+centers_o
+End
