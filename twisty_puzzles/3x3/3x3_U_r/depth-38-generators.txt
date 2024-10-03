@@ -1,0 +1,32 @@
+r U2 r U r' U r' U r' U r' U2 r' U2 r U r U r U' r2 U r' U r U' r U r2 U' r U2
+r' U r2 U' r' U r' U' r U' r2 U r' U' r' U' r' U2 r U2 r U' r U' r U' r U' r' U2 r' U2
+r' U2 r' U' r U' r U' r U' r U2 r U2 r' U' r' U' r' U r2 U' r U' r' U r' U' r2 U r' U2
+r U' r2 U r U' r U r' U r2 U' r U r U r U2 r' U2 r' U r' U r' U r' U r U2 r U2
+r' U' r' U2 r U2 r2 U2 r2 U r U r U r' U r2 U' r U r U r2 U2 r' U2 r' U2
+r2 U' r U r' U' r' U r2 U r U r U r U r' U r U2 r U' r2 U2 r U2 r' U2 r' U2
+r2 U' r U r' U' r U' r' U' r' U r' U r U r U2 r U r U' r' U2 r U r U' r U' r' U' r' U2
+r U r U2 r' U' r2 U2 r2 U' r2 U r U r' U' r' U' r U2 r' U' r' U r U r' U2 r' U2
+r2 U r U r U' r2 U r' U r U r U r2 U2 r2 U2 r U2 r' U' r' U2 r' U2 r' U2
+r U' r U' r U' r U r' U2 r2 U2 r U' r' U' r2 U r' U2 r' U2 r U' r U' r2 U' r' U2
+r' U2 r2 U' r2 U r2 U' r2 U r U r U' r U r U2 r' U r2 U r U' r' U r U' r' U2
+r U r' U r2 U2 r U' r U r2 U' r' U r U' r' U r U' r U r' U2 r2 U2 r U2 r' U2
+U' r U' r U' r U r' U r' U' r U r U' r2 U2 r U r U r' U' r2 U' r U' r' U' r U2 r' U2
+U r' U' r U r' U r U r' U' r U2 r' U' r' U r U' r U2 r U r2 U2 r2 U r' U' r2 U2
+r U2 r U r U r U r' U r U2 r' U' r2 U r2 U' r' U2 r U r' U r' U' r' U' r' U2 r' U'
+r U2 r U r U r U' r U' r' U2 r U r2 U' r2 U r U2 r' U' r U' r' U' r' U' r' U2 r' U'
+r' U r U r U' r' U' r U r' U r U' r U2 r' U' r U r2 U2 r' U' r' U' r U' r' U r' U' r' U2
+r2 U' r U r2 U r U' r2 U r U2 r U' r2 U' r U' r2 U' r U' r U' r' U' r' U2 r' U2
+r U2 r' U r' U r2 U r' U r' U' r' U' r U' r' U' r' U2 r' U r' U' r2 U r U r' U2 r' U2
+r' U r U' r2 U2 r U2 r U2 r2 U' r2 U r' U r' U' r U2 r U r2 U' r' U2 r' U2
+r2 U' r' U' r' U' r' U r U2 r U2 r' U r' U r U2 r' U' r2 U2 r U r' U' r2 U2 r' U'
+r U r' U r2 U r2 U r' U2 r2 U' r' U2 r U r' U r2 U' r' U' r U r2 U' r' U2 r' U'
+r' U r2 U' r2 U2 r U r' U r' U r2 U' r' U2 r U' r' U r U r2 U' r U r2 U r' U2
+U2 r2 U' r U r' U r2 U r U2 r U r U' r' U2 r2 U r U' r' U r' U' r2 U2 r' U2
+U' r U2 r U r U r U2 r U' r U r' U' r U r' U r2 U r' U' r U r U' r2 U r U' r' U2
+U r U2 r U2 r2 U2 r' U' r' U r U2 r2 U' r2 U r U' r U' r' U r2 U' r' U r' U2
+U r U2 r U r' U' r' U' r' U' r' U r U' r2 U2 r' U r' U2 r U2 r U' r U r' U2 r' U2
+r U r U r U' r' U' r U' r' U2 r' U' r U r' U r2 U r U r U r' U r' U' r' U' r' U2 r' U2
+r U r' U r U' r U' r U r' U' r' U' r U2 r' U r U' r U r' U' r2 U' r' U r' U r' U2 r' U2
+r U r U' r2 U r U r U r' U r U' r' U r' U2 r U' r2 U' r' U2 r' U' r' U' r U2 r' U2
+U r' U r' U r U r U' r' U' r2 U r U r' U2 r2 U' r U' r U r U r U r U r' U2 r' U2
+r' U' r U' r' U' r' U r U2 r U' r U2 r U' r' U r U' r U r' U' r' U r2 U' r2 U2 r' U2
